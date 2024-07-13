@@ -33,8 +33,8 @@ repositories {
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#intellij-extension-type
 intellij {
-//    version.set("LATEST-EAP-SNAPSHOT")
-    version.set("2023.1.6")
+    version.set("LATEST-EAP-SNAPSHOT")
+    // version.set("2023.1.6")
     type.set("PC") // Target IDE Platform
 
     plugins.set(listOf(
